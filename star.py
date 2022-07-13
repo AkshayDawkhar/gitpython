@@ -1,4 +1,4 @@
-l=11
+l=13
 for i in range(l):
     for j in range(l-i):
         print(" ",end='')
