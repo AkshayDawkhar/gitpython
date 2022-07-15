@@ -1,8 +1,14 @@
-l=13
+import string
+
+
+ll=1311111111111111
+s=str("10")
+ss=input()
+print(type(ss))
+a=int(s)
+l=int(12)
 for i in range(l):
-    for j in range(l-i):
-        print(" ",end='')
-    for j in range(i):
-        print("* ",end='')
+    print(" "*(l-i),end='')
+    print("{ "*i,end='')
     print()
     
