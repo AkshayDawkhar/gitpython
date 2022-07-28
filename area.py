@@ -29,7 +29,6 @@ while True:
     case "trangle":
         print(trangle(float(input("enter base -")),float(input("enter hight -"))))
     case "circle":
-        r=float(input("enter radius -"))
         print(circle(float(input("enter radius -"))))
     case "exit":
         break
